@@ -1,0 +1,10 @@
+p=int(input("enter the principle amount."))
+n=int(input("enter the number of years."))
+sc=input("senior citizen yes/no.")
+G=input("male/female.")
+if sc=='y' and G=='m':
+    print("SI=",(p*n*12)/100)
+elif sc=='y'and G=='f':
+    print("SI=",(p*n*15)/100)
+else:
+    print("SI=",(p*n*10)/100)
